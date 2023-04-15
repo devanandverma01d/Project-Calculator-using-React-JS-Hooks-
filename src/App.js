@@ -10,8 +10,8 @@ function App() {
   //2.2function definition
   let handleClick=(e)=>{
     setResult(result.concat(e.target.name))
-    console.log(e.target);
-    console.log(e.target.name);
+    //console.log(e.target);
+    //console.log(e.target.name);
   }
 
   let click=()=>{
